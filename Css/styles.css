@@ -19,3 +19,20 @@
     background: #707070;
     color: white;
   }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 992px;
+  }
+
+  .menu{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav-link{
+    border: 1px solid red;
+    padding: 5px 20px;
+  }
