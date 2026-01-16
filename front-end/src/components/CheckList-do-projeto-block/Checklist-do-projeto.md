@@ -1,7 +1,7 @@
 # 📋 Checklist do Blog com CRUD + Login Admin
 
 ## 🔧 Preparação
-- [ ] Criar repositório no GitHub  
+- [x] Criar repositório no GitHub  
 - [x] Configurar ambiente com Vite + Tailwind + Font Awesome  
 - [ ] Instalar dependências do backend (Node.js + Prisma + MongoDB)  
 - [ ] Definir estrutura de pastas (frontend, backend, docs)  
