@@ -1,0 +1,3 @@
+seput da ia
+
+ainda não, pois estou caminhando para isso. quero fazer uma página de blog, com gerenciamento crud das informações do blog, deixando algumas partes fixas que não mudaram, terá ainda o newsletter, será feita uma api em node.js prisma e mongoose, conectado ainda com banco de dados mongodb, terá um painel de administrador para o administrador ser responsável pelo crud dasn oticias do blog, será documentado em md, suggar, será versionado no GitHub, deployd no vercel e api no render. Tudo isso sei como fazer, mas claro, pesquiso a documentaç~eos, duvidas em blogs, sei a lógica, mas não sei todas as linhas decoradas. Será que estou no rumo?
