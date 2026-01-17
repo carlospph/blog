@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemCategory from '../ItemCategory/ItemCategory'
 
 const Categorys = () => {
     return (
@@ -26,86 +27,15 @@ const Categorys = () => {
                     </div>
                 </div>
 
-                <div className="border border-gray-700 rounded-md py-6 px-3 flex gap-2 items-center">
-                    <div className="bg-blue-400 rounded-sm px-2 py-1">
-                        <i class="fa-solid fa-display"></i>
-                    </div>
-                    <div>
-                        <div className="flex items-center gap-4">
-                            <p>Fundamentos</p>
-                            <p className="flex gap-1">
-                                <span class="text-[10px] block font-thin">12 </span>
-                                <span class="text-[10px] block">Artigos</span>
-                            </p>
-                        </div>
-                        <p className="text-sm text-gray-400">Conceitos básicos sobre informática</p>
-                    </div>
-                </div>
+                <ItemCategory time="5" tag="Básico" icone="fa-solid fa-bars" content="Informática para leigos" />
 
-                <div className="border border-gray-700 rounded-md py-6 px-3 flex gap-2 items-center">
-                    <div className="bg-blue-400 rounded-sm px-2 py-1">
-                        <i class="fa-solid fa-display"></i>
-                    </div>
-                    <div>
-                        <div className="flex items-center gap-4">
-                            <p>Fundamentos</p>
-                            <p className="flex gap-1">
-                                <span class="text-[10px] block font-thin">12 </span>
-                                <span class="text-[10px] block">Artigos</span>
-                            </p>
-                        </div>
-                        <p className="text-sm text-gray-400">Conceitos básicos sobre informática</p>
-                    </div>
-                </div>
+                <ItemCategory time="4" tag="Contas simples" icone="fa-solid fa-calculator" content="Aprender a trabalhar com planilhas e formulas" />
 
-                <div className="border border-gray-700 rounded-md py-6 px-3 flex gap-2 items-center">
-                    <div className="bg-blue-400 rounded-sm px-2 py-1">
-                        <i class="fa-solid fa-display"></i>
-                    </div>
-                    <div>
-                        <div className="flex items-center gap-4">
-                            <p>Fundamentos</p>
-                            <p className="flex gap-1">
-                                <span class="text-[10px] block font-thin">12 </span>
-                                <span class="text-[10px] block">Artigos</span>
-                            </p>
-                        </div>
-                        <p className="text-sm text-gray-400">Conceitos básicos sobre informática</p>
-                    </div>
-                </div>
+                <ItemCategory time="5" tag="Word e documentos" icone="fa-regular fa-file-word" content="Editar e formatar documentos digitais" />
 
-                <div className="border border-gray-700 rounded-md py-6 px-3 flex gap-2 items-center">
-                    <div className="bg-blue-400 rounded-sm px-2 py-1">
-                        <i class="fa-solid fa-display"></i>
-                    </div>
-                    <div>
-                        <div className="flex items-center gap-4">
-                            <p>Fundamentos</p>
-                            <p className="flex gap-1">
-                                <span class="text-[10px] block font-thin">12 </span>
-                                <span class="text-[10px] block">Artigos</span>
-                            </p>
-                        </div>
-                        <p className="text-sm text-gray-400">Conceitos básicos sobre informática</p>
-                    </div>
-                </div>
+                <ItemCategory time="3" tag="Configuração digital" icone="fa-solid fa-gears" content="Segurança de dados e gerenciamento de dados" />
 
-                <div className="border border-gray-700 rounded-md py-6 px-3 flex gap-2 items-center">
-                    <div className="bg-blue-400 rounded-sm px-2 py-1">
-                        <i class="fa-solid fa-display"></i>
-                    </div>
-                    <div>
-                        <div className="flex items-center gap-4">
-                            <p>Fundamentos</p>
-                            <p className="flex gap-1">
-                                <span class="text-[10px] block font-thin">12 </span>
-                                <span class="text-[10px] block">Artigos</span>
-                            </p>
-                        </div>
-                        <p className="text-sm text-gray-400">Conceitos básicos sobre informática</p>
-                    </div>
-                </div>
-
+                <ItemCategory time="3" tag="Internet" icone="fa-brands fa-internet-explorer" content="Saíba mais sobre o mundo da web e suas ferramentas" />
             </div>
         </>
     )

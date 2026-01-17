@@ -12,9 +12,30 @@ const Populars = () => {
 
             <div className="w-[100%]">
                 <div className="flex flex-col gap-4">
-                    <Thumbnail title="Web segura, dados protegidos" tag="Segurança" time="4min" img="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg" alt="Cadeado amarrado - simulando segurança" />
 
-                    <Thumbnail title="Notícias sobre o google" tag="Internet" time="4min" img="https://images.pexels.com/photos/15092/pexels-photo.jpg" alt="Celular na mão com as funções do google" />
+                    <Thumbnail
+                        title="O Futuro da Inteligência Artificial"
+                        tag="Tecnologia"
+                        time="6min"
+                        img="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
+                        alt="Representação visual de circuitos e conexões neurais"
+                    />
+
+                    <Thumbnail
+                        title="Guia de Produtividade Remota"
+                        tag="Carreira"
+                        time="5min"
+                        img="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
+                        alt="Pessoa trabalhando em um laptop em um ambiente iluminado"
+                    />
+
+                    <Thumbnail
+                        title="Novidades do Mundo Mobile"
+                        tag="Gadgets"
+                        time="3min"
+                        img="https://cdn.pixabay.com/photo/2020/09/11/06/06/smartphone-5562156_1280.jpg"
+                        alt="Vários smartphones modernos alinhados sobre uma mesa"
+                    />
                 </div>
             </div>
         </div>

@@ -2,12 +2,12 @@ import CardExplication from '../CardExplication/CardExplication'
 
 const Explication = () => {
     return (
-        <div className="max-w-7xl mx-auto pb-[200px] flex flex-col gap-3 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
+        <div className="max-w-3xl mx-auto pb-[200px] flex flex-col gap-3 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
 
             <CardExplication
                 icone="fa-solid fa-book-open"
                 title="Conteúdo simples"
-                description="Explicações claras sem termos complicados."
+                description="Explicações claras sem termos complicados"
             />
 
             <CardExplication
