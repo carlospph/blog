@@ -2,7 +2,7 @@ import React from 'react'
 
 const Brand = () => {
     return (
-        <div className="flex items-center gap-2 mb-4">
+        <div className="flex items-center gap-2 mb-0">
             <div className="bg-cyan-400 p-2 rounded-lg">
                 <i className="fa-solid fa-desktop text-gray-900 text-xl"></i>
             </div>
