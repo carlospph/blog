@@ -29,7 +29,8 @@ const usuarioSchema = new Schema({
     senha: {
         type: String,
         minlength: [6, "Minimo 6 caracteres"],
-        required: true
+        required: true,
+        select: false
     }
 })
 
