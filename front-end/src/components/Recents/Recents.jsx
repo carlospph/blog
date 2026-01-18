@@ -3,10 +3,10 @@ import CardRecent from "../CardRecent/CardRecent"
 const Recents = () => {
     return (
         <>
-            <div className="text-white text-center pt-6 pb-12 max-w-7xl mx-auto">
+            <div className="text-white text-center pt-2 pb-12 px-3 max-w-7xl mx-auto">
                 <h3 className="text-3xl text-left">Notícias recentes</h3>
             </div>
-            <div className="max-w-7xl mx-auto flex flex-col gap-3 text-white pb-12 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:gap-5">
+            <div className="max-w-7xl mx-auto flex flex-col gap-3 px-3 text-white pb-12 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:gap-5">
 
                 <CardRecent
                     image="https://images.unsplash.com/photo-1707761918029-1295034aa31e?q=80&w=1170&auto=format&fit=crop"

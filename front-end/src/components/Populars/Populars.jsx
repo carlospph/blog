@@ -3,7 +3,8 @@ import Thumbnail from '../Thumbnail/Thumbnail'
 
 const Populars = () => {
     return (
-        <div className="max-w-7xl mx-auto text-white grid grid-cols-2 items-center gap-5 pb-8">
+        // <div className="max-w-7xl mx-auto text-white grid grid-cols-2 items-center gap-5 pb-8 px-3">
+        <div className="max-w-7xl mx-auto text-white lg:grid lg:grid-cols-2 lg:items-center lg:gap-5 pb-8 px-3">
 
             <h2 className="col-span-2 text-2xl font-bold mb-4">Artigos populares</h2>
             <div>
@@ -11,7 +12,7 @@ const Populars = () => {
             </div>
 
             <div className="w-[100%]">
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 pt-4">
 
                     <Thumbnail
                         title="O Futuro da Inteligência Artificial"

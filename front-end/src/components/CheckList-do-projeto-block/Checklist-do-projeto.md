@@ -3,18 +3,20 @@
 ## 🔧 Preparação
 - [x] Criar repositório no GitHub  
 - [x] Configurar ambiente com Vite + Tailwind + Font Awesome  
-- [ ] Instalar dependências do backend (Node.js + Prisma + MongoDB)  
-- [ ] Definir estrutura de pastas (frontend, backend, docs)  
+- [x] Instalar dependências do backend (Node.js + Express + MongoDB)  
+- [x] Definir estrutura de pastas (frontend, backend, docs)  
 
 ## 🎨 Frontend
-- [ ] Criar layout base (header, footer, sidebar/painel admin)  
+- [x] Criar layout base
+- [ ] Painel admin
 - [ ] Implementar página inicial com listagem de posts  
 - [ ] Criar página de visualização de post individual  
-- [ ] Criar formulário para newsletter (frontend apenas)  
-- [ ] Estilizar com Tailwind (tema escuro, responsividade)  
+- [x] Criar formulário para newsletter (frontend apenas)  
+- [x] Estilizar com Tailwind
+- [x] Responsividade para mobile 
 
 ## ⚙️ Backend
-- [ ] Configurar conexão Prisma ↔ MongoDB  
+- [ ] Configurar conexão Express ↔ MongoDB  
 - [ ] Criar modelo `Post` (title, content, author, createdAt)  
 - [ ] Criar modelo `Admin` (email, passwordHash, role)  
 - [ ] Implementar rotas CRUD para posts (`/posts`)  
