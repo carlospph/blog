@@ -17,7 +17,7 @@ const FormularioNovoPost = () => {
             return;
         }
 
-
+        //Sucesso e post para o axios
         console.log(dados.inputTitulo, dados.inputDescricao, dados.inputTime, dados.inputURL);
         alert("Post publicado com sucesso!");
     }
