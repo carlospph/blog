@@ -7,8 +7,10 @@
 // import Populars from "./components/Populars/Populars"
 // import Recents from "./components/Recents/Recents"
 
-import FormularioNovoPost from "./components/FormularioNovoPost.jsx"
-import Teste from "./components/Teste.jsx"
+import Paths from "./components/Router/Paths.jsx"
+
+// import FormularioNovoPost from "./components/FormularioNovoPost.jsx"
+// import Teste from "./components/Teste.jsx"
 
 function App() {
   return (
@@ -27,8 +29,9 @@ function App() {
       {/* <Teste /> */}
 
 
-      <FormularioNovoPost />
+      {/* <FormularioNovoPost /> */}
 
+      <Paths />
 
 
     </div>

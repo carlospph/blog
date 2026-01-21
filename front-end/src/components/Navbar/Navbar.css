@@ -1,0 +1,8 @@
+.my-hidden {
+    font-size: 22px;
+    cursor: pointer;
+
+    @media (min-width:768px) {
+        display: none;
+    }
+}

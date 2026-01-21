@@ -3,8 +3,8 @@ import Brand from '../Brand/Brand';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-gray-400 pt-0 pb-6 px-4">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <footer className="bg-gray-900 text-gray-400 pt-6 pb-6 px-4">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
 
                 <div className="col-span-1 md:col-span-1">
                     {/* aqui o logo  */}
